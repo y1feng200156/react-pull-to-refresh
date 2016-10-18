@@ -62,8 +62,8 @@ body {
 }
 
 .loading-ptr-1 {
-	-webkit-animation-delay: 0;
-	animation-delay: 0 !important;
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s !important;
 }
 
 .loading-ptr-2 {
@@ -143,6 +143,6 @@ body {
 	margin: 0.4rem;
 }
 
-body:not(.ptr-loading) #container .ptr-element {
+.body:not(.ptr-loading) .ptr-element {
 	transform: translate3d(0, -50px, 0);
 }

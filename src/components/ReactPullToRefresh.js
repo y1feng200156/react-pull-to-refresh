@@ -68,7 +68,7 @@ export default class ReactPullToRefresh extends Component {
     }
 
     return (
-      <div ref="body" {...rest}>
+      <div className="body" ref="body" {...rest}>
         <div ref="ptr" className="ptr-element">
           {icon || <span className="genericon genericon-next"></span>}
           {loading ||

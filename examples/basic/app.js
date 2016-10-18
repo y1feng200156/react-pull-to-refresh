@@ -8,6 +8,33 @@ let App = React.createClass({
   getInitialState() {
     return {
       items: [
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
+        <div key={'item-' + count}>Item {count++}</div>,
         <div key={'item-' + count}>Item {count++}</div>
       ]
     };
@@ -17,7 +44,7 @@ let App = React.createClass({
     let self = this;
     setTimeout(function () {
       self.addItem() ? resolve() : reject();
-    }, 500);
+    }, 100500);
   },
 
   addItem() {
